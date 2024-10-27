@@ -1,0 +1,14 @@
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\bin\Debug\net8.0\PierwszyProjekt.exe
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\bin\Debug\net8.0\PierwszyProjekt.deps.json
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\bin\Debug\net8.0\PierwszyProjekt.runtimeconfig.json
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\bin\Debug\net8.0\PierwszyProjekt.dll
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\bin\Debug\net8.0\PierwszyProjekt.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.AssemblyInfoInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.AssemblyInfo.cs
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.csproj.CoreCompileInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.dll
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\refint\PierwszyProjekt.dll
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.genruntimeconfig.cache
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\ref\PierwszyProjekt.dll
