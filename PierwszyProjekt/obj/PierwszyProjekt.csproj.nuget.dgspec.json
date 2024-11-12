@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj": {}
+    "E:\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj": {
+    "E:\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj",
+        "projectUniqueName": "E:\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj",
         "projectName": "PierwszyProjekt",
-        "projectPath": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj",
-        "packagesPath": "C:\\Users\\PFedon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\obj\\",
+        "projectPath": "E:\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj",
+        "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
+        "outputPath": "E:\\ParallelPrograming\\PierwszyProjekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PFedon\\NuGet.Config",
-          "C:\\Users\\PFedon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\piotr\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
