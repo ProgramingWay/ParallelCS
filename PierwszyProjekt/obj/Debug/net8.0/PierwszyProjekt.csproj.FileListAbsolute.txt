@@ -12,3 +12,4 @@ C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\re
 C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.pdb
 C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.genruntimeconfig.cache
 C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\ref\PierwszyProjekt.dll
+C:\Users\PFedon\Documents\ParallelPrograming\PierwszyProjekt\obj\Debug\net8.0\PierwszyProjekt.sourcelink.json

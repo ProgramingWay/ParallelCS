@@ -3,4 +3,5 @@
 Fibonacci fibonacci = new Fibonacci();
 fibonacci.Start();
 
-Calka calka= new Calka();
+Calka calka = new Calka();
+calka.Start();

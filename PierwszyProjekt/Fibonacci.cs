@@ -42,5 +42,6 @@ public class Fibonacci{
                 Write($"{i + 3}: {current},  ");
             }
         }
+        WriteLine("\n");
     }
 }
