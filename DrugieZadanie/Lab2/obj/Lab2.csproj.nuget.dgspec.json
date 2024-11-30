@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj": {}
+    "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\DrugieZadanie\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj": {
+    "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\DrugieZadanie\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj",
-        "projectName": "PierwszyProjekt",
-        "projectPath": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\PierwszyProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\DrugieZadanie\\Lab2\\Lab2.csproj",
+        "projectName": "Lab2",
+        "projectPath": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\DrugieZadanie\\Lab2\\Lab2.csproj",
         "packagesPath": "C:\\Users\\PFedon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\PierwszyProjekt\\obj\\",
+        "outputPath": "C:\\Users\\PFedon\\Documents\\ParallelPrograming\\DrugieZadanie\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PFedon\\NuGet.Config",
