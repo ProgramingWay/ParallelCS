@@ -1,36 +1,52 @@
 public class Calka
 {
-    /**
-    Zadanie 4:
-        Im większa jest liczba elementów, na które dzielony jest przedział całkowania, tym mniejsza jest szerokość każdego z nich.
-        To z kolei prowadzi do lepszej przybliżeniu krzywej funkcji za pomocą prostokątów, co przekłada się na większą dokładność wyznaczania całki.
-    **/
+
+    public enum MetodaObliczen { Lewa, Prawa, Srodek }
+    public enum ElementAproksymacji { Prostokąt, Trapez }
+
     double a = 0;
     double b = 2;
     
-    // int ile = 100;
-    int ile = 200;
+    int ile;
 
-    public void Start()
-    {
-        double sumaFinalna = CalkaProstokat();
-
-        WriteLine($"Wartość całki metodą prostokątów (n={ile}): {sumaFinalna}");
-    }
     private double Funkcja(double x)
     {
         return 0.5 * x;
-    }
+    }   
 
-    private double CalkaProstokat()
+    public double CalkaProstokatTrapez(MetodaObliczen metoda, ElementAproksymacji element, int ile)
     {
         double h = (b - a) / ile;
         double suma = 0;
         for (int i = 0; i < ile; i++)
         {
-            double x = a + i * h;
-            suma += h * Funkcja(x);
+            double x1 = a + i * h;
+            double x2 = a + (i + 1) * h;
+            double fx1 = Funkcja(x1);
+            double fx2 = Funkcja(x2);
+
+            switch (element)
+            {
+                case ElementAproksymacji.Prostokąt:
+                    switch (metoda)
+                    {
+                        case MetodaObliczen.Lewa:
+                            suma += h * fx1;
+                            break;
+                        case MetodaObliczen.Prawa:
+                            suma += h * fx2;
+                            break;
+                        case MetodaObliczen.Srodek:
+                            suma += h * Funkcja((x1 + x2) / 2);
+                            break;
+                    }
+                    break;
+                case ElementAproksymacji.Trapez:
+                    suma += h * (fx1 + fx2) / 2;
+                    break;
+            }
         }
         return suma;
     }
+    
 }
