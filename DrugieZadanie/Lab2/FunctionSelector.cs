@@ -1,8 +1,6 @@
 using System;
 
-/// <summary>
-/// Klasa odpowiedzialna za wybór funkcji przez użytkownika.
-/// </summary>
+// Klasa odpowiedzialna za wybór funkcji przez użytkownika.
 public static class FunctionSelector
 {
     public static Func<double, double> ChooseFunction()

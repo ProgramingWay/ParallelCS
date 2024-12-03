@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-// Klasa odpowiedzialna za obliczenia i raportowanie postępu.
+//* Klasa odpowiedzialna za obliczenia i raportowanie postępu.
 public class CalculationProgress
 {
     private readonly IProgress<(int IntervalId, int Progress)> _progress;

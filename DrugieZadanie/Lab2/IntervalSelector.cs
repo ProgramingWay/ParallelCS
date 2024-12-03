@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-/// <summary>
-/// Klasa odpowiedzialna za wybór przedziałów przez użytkownika.
-/// </summary>
+// Klasa odpowiedzialna za wybór przedziałów przez użytkownika.
+
 public static class IntervalSelector
 {
     public static List<(double Start, double End)> GetIntervals()

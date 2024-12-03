@@ -1,6 +1,4 @@
-/// <summary>
-/// Klasa odpowiedzialna za obliczenia całki metodą trapezów.
-/// </summary>
+// Klasa odpowiedzialna za obliczenia całki metodą trapezów.
 public static class IntegralCalculator
 {
     public static double Calculate(Func<double, double> function, double start, double end, int steps)
