@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TrzecieZadanieV2/1.0.0": {
+        "runtime": {
+          "TrzecieZadanieV2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TrzecieZadanieV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

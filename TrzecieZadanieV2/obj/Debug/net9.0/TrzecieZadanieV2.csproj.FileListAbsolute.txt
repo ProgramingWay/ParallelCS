@@ -1,0 +1,15 @@
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.exe
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.deps.json
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.runtimeconfig.json
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.dll
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.pdb
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.GeneratedMSBuildEditorConfig.editorconfig
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.AssemblyInfoInputs.cache
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.AssemblyInfo.cs
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.csproj.CoreCompileInputs.cache
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.sourcelink.json
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.dll
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\refint\TrzecieZadanieV2.dll
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.pdb
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.genruntimeconfig.cache
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\ref\TrzecieZadanieV2.dll

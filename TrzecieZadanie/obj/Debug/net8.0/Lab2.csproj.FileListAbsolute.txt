@@ -13,3 +13,18 @@ C:\Users\PFedon\Documents\ParallelPrograming\DrugieZadanie\Lab2\obj\Debug\net8.0
 C:\Users\PFedon\Documents\ParallelPrograming\DrugieZadanie\Lab2\obj\Debug\net8.0\Lab2.pdb
 C:\Users\PFedon\Documents\ParallelPrograming\DrugieZadanie\Lab2\obj\Debug\net8.0\Lab2.genruntimeconfig.cache
 C:\Users\PFedon\Documents\ParallelPrograming\DrugieZadanie\Lab2\obj\Debug\net8.0\ref\Lab2.dll
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\bin\Debug\net8.0\Lab2.exe
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\bin\Debug\net8.0\Lab2.deps.json
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\bin\Debug\net8.0\Lab2.runtimeconfig.json
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\bin\Debug\net8.0\Lab2.dll
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\bin\Debug\net8.0\Lab2.pdb
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.AssemblyInfoInputs.cache
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.AssemblyInfo.cs
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.csproj.CoreCompileInputs.cache
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.sourcelink.json
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.dll
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\refint\Lab2.dll
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.pdb
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\Lab2.genruntimeconfig.cache
+E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanie\obj\Debug\net8.0\ref\Lab2.dll
