@@ -1,12 +1,17 @@
+using System.Diagnostics;
 using taskThird.Models;
 using taskThird.Utils;
 
-using System.Diagnostics;
-
 namespace taskThird.Processing
 {
-    public class TPLProcessing : IProcessingMethod
+    /// <summary>
+    /// Implementacja przetwarzania obliczeń za pomocą Task Parallel Library (TPL).
+    /// </summary>
+    public class TPLCalculate : ICalculate
     {
+        /// <summary>
+        /// Wykonuje obliczenia całki dla podanych przedziałów równolegle z użyciem TPL.
+        /// </summary>
         public void Process(Func<double, double> func, List<Interval> intervals, int steps, CancellationToken token)
         {
             var tasks = intervals.Select((interval, index) => Task.Run(() =>
@@ -14,7 +19,7 @@ namespace taskThird.Processing
                 Stopwatch stopwatch = new Stopwatch(); // Stoper dla poszczególnego wątku
                 stopwatch.Start();
 
-                double result = IntegralCalculator.Calculate(func, interval.Start, interval.End, steps, token, progress =>
+                double result = MainCalculator.Calculate(func, interval.Start, interval.End, steps, token, progress =>
                 {
                     Console.WriteLine($"Przedział {index + 1} ({interval.Start}, {interval.End}): {progress}% ukończono (TPL).");
                 });

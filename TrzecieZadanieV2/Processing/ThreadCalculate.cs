@@ -1,12 +1,21 @@
+using System.Diagnostics;
 using taskThird.Models;
 using taskThird.Utils;
 
-using System.Diagnostics;
-
 namespace taskThird.Processing
 {
-    public class ThreadProcessing : IProcessingMethod
+    /// <summary>
+    /// Implementacja przetwarzania obliczeń za pomocą klasy Thread.
+    /// </summary>
+    public class ThreadCalculate : ICalculate
     {
+        /// <summary>
+        /// Wykonuje obliczenia całki dla podanych przedziałów równolegle z użyciem Thread.
+        /// </summary>
+        /// <param name="func">Funkcja matematyczna do całkowania.</param>
+        /// <param name="intervals">Lista przedziałów dla obliczeń.</param>
+        /// <param name="steps">Liczba kroków aproksymacji trapezowej.</param>
+        /// <param name="token">Token do obsługi anulowania obliczeń.</param>
         public void Process(Func<double, double> func, List<Interval> intervals, int steps, CancellationToken token)
         {
             var threads = new List<Thread>();
@@ -20,7 +29,7 @@ namespace taskThird.Processing
                     Stopwatch stopwatch = new Stopwatch(); // Stoper dla poszczególnego wątku
                     stopwatch.Start();
 
-                    results[index] = IntegralCalculator.Calculate(func, intervals[index].Start, intervals[index].End, steps, token, progress =>
+                    results[index] = MainCalculator.Calculate(func, intervals[index].Start, intervals[index].End, steps, token, progress =>
                     {
                         Console.WriteLine($"Przedział {index + 1} ({intervals[index].Start}, {intervals[index].End}): {progress}% ukończono (Thread).");
                     });
@@ -32,14 +41,15 @@ namespace taskThird.Processing
 
             foreach (var thread in threads)
             {
-                thread.Start();
+                thread.Start(); // Uruchomienie wątku
             }
 
             foreach (var thread in threads)
             {
-                thread.Join();
+                thread.Join(); // Oczekiwanie na zakończenie wątku
             }
 
+            // Wyświetlenie wyników
             Console.WriteLine("Podsumowanie:");
             for (int i = 0; i < intervals.Count; i++)
             {

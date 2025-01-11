@@ -4,18 +4,22 @@ using System.Linq;
 using System.Threading;
 using taskThird.Processing;
 using taskThird.Models;
-
 using System.Diagnostics;
 
 namespace taskThird
 {
+    /// <summary>
+    /// Główna klasa aplikacji, zarządza interakcją użytkownika, wyborem funkcji, metodą przetwarzania
+    /// oraz uruchamia obliczenia całki dla podanych przedziałów.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
         {
-            Stopwatch totalStopwatch = new Stopwatch(); 
+            Stopwatch totalStopwatch = new Stopwatch(); // Miernik czasu działania całej aplikacji.
             totalStopwatch.Start();
 
+            // Wybór funkcji matematycznej
             Console.WriteLine("Wybierz funkcję do obliczenia całki:");
             Console.WriteLine("1. y = 2x + 2x^2");
             Console.WriteLine("2. y = 2x^2 + 3");
@@ -26,20 +30,23 @@ namespace taskThird
 
             Func<double, double> selectedFunction = SelectFunction(choice);
 
-            Console.WriteLine("Podaj liczbę przedziałów:");
+            // Pobranie liczby przedziałów
+            Console.WriteLine("Podaj liczbę przedziałów (maksymalnie 100):");
             userInput = Console.ReadLine();
             int intervalCount = ParseInputToInt(userInput, 1, 100);
 
             var intervals = GetIntervals(intervalCount);
 
+            // Wybór metody przetwarzania
             Console.WriteLine("Wybierz metodę przetwarzania:");
             Console.WriteLine("1. TPL");
             Console.WriteLine("2. Thread");
 
             userInput = Console.ReadLine();
             int methodChoice = ParseInputToInt(userInput, 1, 2);
-            IProcessingMethod processingMethod = ChooseProcessingMethod(methodChoice);
+            ICalculate processingMethod = ChooseProcessingMethod(methodChoice);
 
+            // Obsługa anulowania obliczeń
             var cts = new CancellationTokenSource();
             Console.WriteLine("Naciśnij dowolny klawisz, aby anulować obliczenia.");
             Task.Run(() =>
@@ -48,12 +55,16 @@ namespace taskThird
                 cts.Cancel();
             });
 
+            // Uruchomienie procesu obliczeń
             processingMethod.Process(selectedFunction, intervals, 1000, cts.Token);
 
-            totalStopwatch.Stop();
+            totalStopwatch.Stop(); // Zatrzymanie stopera
             Console.WriteLine($"Całkowity czas działania aplikacji: {totalStopwatch.ElapsedMilliseconds} ms");
         }
 
+        /// <summary>
+        /// Parsuje wejście użytkownika na liczbę całkowitą i sprawdza, czy mieści się w zadanym zakresie.
+        /// </summary>
         static int ParseInputToInt(string input, int min, int max)
         {
             if (!int.TryParse(input, out int result) || result < min || result > max)
@@ -63,6 +74,9 @@ namespace taskThird
             return result;
         }
 
+        /// <summary>
+        /// Zwraca funkcję matematyczną na podstawie wyboru użytkownika.
+        /// </summary>
         static Func<double, double> SelectFunction(int choice)
         {
             return choice switch
@@ -74,6 +88,9 @@ namespace taskThird
             };
         }
 
+        /// <summary>
+        /// Pobiera listę przedziałów od użytkownika.
+        /// </summary>
         static List<Interval> GetIntervals(int count)
         {
             var intervals = new List<Interval>();
@@ -97,12 +114,15 @@ namespace taskThird
             return intervals;
         }
 
-        static IProcessingMethod ChooseProcessingMethod(int choice)
+        /// <summary>
+        /// Wybiera metodę przetwarzania na podstawie wyboru użytkownika.
+        /// </summary>
+        static ICalculate ChooseProcessingMethod(int choice)
         {
             return choice switch
             {
-                1 => new TPLProcessing(),
-                2 => new ThreadProcessing(),
+                1 => new TPLCalculate(),
+                2 => new ThreadCalculate(),
                 _ => throw new InvalidOperationException("Nieprawidłowy wybór metody przetwarzania.")
             };
         }

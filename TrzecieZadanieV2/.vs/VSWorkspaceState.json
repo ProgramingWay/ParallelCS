@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Models",
+    "\\Processing",
+    "\\Utils"
   ],
   "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
