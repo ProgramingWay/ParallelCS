@@ -13,3 +13,18 @@ E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\refint\Trze
 E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.pdb
 E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.genruntimeconfig.cache
 E:\1 PROGRAMING\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\ref\TrzecieZadanieV2.dll
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.exe
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.deps.json
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.runtimeconfig.json
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.dll
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\bin\Debug\net9.0\TrzecieZadanieV2.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.AssemblyInfoInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.AssemblyInfo.cs
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.csproj.CoreCompileInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.sourcelink.json
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.dll
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\refint\TrzecieZadanieV2.dll
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\TrzecieZadanieV2.genruntimeconfig.cache
+C:\Users\PFedon\Documents\ParallelPrograming\TrzecieZadanieV2\obj\Debug\net9.0\ref\TrzecieZadanieV2.dll
