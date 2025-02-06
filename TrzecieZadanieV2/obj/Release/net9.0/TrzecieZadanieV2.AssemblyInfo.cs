@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrzecieZadanieV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0de0afc73f7a6c9050ba964e14cdbdb6c2a39f3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a44d7bc0e064c9ebb536cc2fc5f983a1ce6ab098")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrzecieZadanieV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrzecieZadanieV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
