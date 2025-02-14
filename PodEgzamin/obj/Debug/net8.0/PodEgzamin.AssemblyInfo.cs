@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PodEgzamin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+757e27c3cd837b6dcab67d786373f73174136d21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40676e116a28bc2670defe4c0e210f8cb0f12f92")]
 [assembly: System.Reflection.AssemblyProductAttribute("PodEgzamin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PodEgzamin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

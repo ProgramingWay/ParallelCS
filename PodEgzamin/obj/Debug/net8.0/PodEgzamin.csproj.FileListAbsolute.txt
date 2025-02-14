@@ -1,0 +1,15 @@
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\bin\Debug\net8.0\PodEgzamin.exe
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\bin\Debug\net8.0\PodEgzamin.deps.json
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\bin\Debug\net8.0\PodEgzamin.runtimeconfig.json
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\bin\Debug\net8.0\PodEgzamin.dll
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\bin\Debug\net8.0\PodEgzamin.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.AssemblyInfoInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.AssemblyInfo.cs
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.csproj.CoreCompileInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.sourcelink.json
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.dll
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\refint\PodEgzamin.dll
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\PodEgzamin.genruntimeconfig.cache
+C:\Users\PFedon\Documents\ParallelPrograming\PodEgzamin\obj\Debug\net8.0\ref\PodEgzamin.dll
