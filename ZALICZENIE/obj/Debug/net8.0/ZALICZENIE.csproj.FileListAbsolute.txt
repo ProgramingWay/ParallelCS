@@ -1,0 +1,15 @@
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.AssemblyInfoInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.AssemblyInfo.cs
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.csproj.CoreCompileInputs.cache
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.sourcelink.json
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\bin\Debug\net8.0\ZALICZENIE.exe
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\bin\Debug\net8.0\ZALICZENIE.deps.json
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\bin\Debug\net8.0\ZALICZENIE.runtimeconfig.json
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\bin\Debug\net8.0\ZALICZENIE.dll
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\bin\Debug\net8.0\ZALICZENIE.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.dll
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\refint\ZALICZENIE.dll
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.pdb
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ZALICZENIE.genruntimeconfig.cache
+C:\Users\PFedon\Documents\ParallelPrograming\ZALICZENIE\obj\Debug\net8.0\ref\ZALICZENIE.dll

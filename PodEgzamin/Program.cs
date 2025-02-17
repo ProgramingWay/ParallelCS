@@ -1,46 +1,53 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-
-ArrayList cityList = new();
-
-
-Random r = new();
-
-
-Parallel.For(0, 100, i =>
+internal partial class Program
 {
-    City city = new($"Miasto{i}");
-    ArrayList temperatures = new(366);
-
-    cityList.Add(city);
-
-    Parallel.For(0, 366, j => {
-
-        double temperature = Math.Round(r.NextDouble() + r.Next(40) - 20, 2);
-        temperatures.Add(temperature);
-    });
-    city.Temperatures = temperatures;
-});
-
-foreach (var city in cityList)
-{
-    Console.WriteLine(((City)city).cityName);
-
-    foreach (var temperatura in ((City)city).Temperatures)
+    private static void Main(string[] args)
     {
-        Console.WriteLine("    " + temperatura);
+        ConcurrentBag<City> cityList = new();
+
+        GenerateTemperatures(cityList);
+
+        foreach (var city in cityList)
+        {
+            Console.WriteLine(city.cityName);
+            foreach (var temperature in city.Temperatures)
+            {
+                Console.WriteLine("    " + temperature);
+            }
+            Console.WriteLine();
+        }
     }
 
-    Console.WriteLine();
+    static void GenerateTemperatures(ConcurrentBag<City> cityList) 
+    {
+        Parallel.For(0, 99, i =>
+        {
+            City city = new($"Miasto{i + 1}");
+            ConcurrentBag<double> temperatures = new();
+            Random localRandom = new Random();
+
+            Parallel.For(0, 366, j =>
+            {
+                double temperature = Math.Round(localRandom.NextDouble() + localRandom.Next(40) - 20, 2);
+                temperatures.Add(temperature);
+            });
+
+            city.Temperatures = temperatures;
+            cityList.Add(city);
+        });
+    }
 }
 
-
-public class City 
+public class City
 {
-    public string cityName {  get; set; }
-    public ArrayList Temperatures {  get; set; }
+    public string cityName { get; set; }
+    public ConcurrentBag<double> Temperatures { get; set; } = new();
 
-    public City(string name) 
+    public City(string name)
     {
         cityName = name;
     }
